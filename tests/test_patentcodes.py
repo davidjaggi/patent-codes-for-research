@@ -26,7 +26,7 @@ def test_covers():
     assert not pc.covers("Y02T10/72", "Y02T10/7300", code_to="Y02T10/7291")
 
 
-@pytest.mark.parametrize("scheme", ["envtech", "jee_srivastav", "y02", "ipc_gi", "envtech_expanded", "dechezlepretre_martin_mohnen", "aghion_benabou_martin_roulet"])
+@pytest.mark.parametrize("scheme", ["envtech", "jee_srivastav", "y02", "ipc_gi", "envtech_expanded", "dechezlepretre_martin_mohnen", "aghion_benabou_martin_roulet", "dechezlepretre_muckley_neelakantan"])
 def test_schemes_load_and_codes_valid(scheme):
     df = pc.load(scheme)
     assert len(df) > 0
@@ -80,3 +80,11 @@ def test_envtech_matches_paper_annex():
     e = pc.load("envtech")
     assert pc.is_in_scheme("Y02E60/7400", e)   # Y02E60/70-7892 (added from the paper's annex)
     assert pc.is_in_scheme("Y02T10/10", e)
+
+
+def test_dmn_dirty_equals_jee_srivastav_manufacturing_dirty():
+    dmn = pc.load("dechezlepretre_muckley_neelakantan")
+    js = pc.load("jee_srivastav")
+    js_m = js[(js["category"] == "dirty") & (js["sector"] == "Manufacturing")]
+    assert set(dmn[dmn["category"] == "dirty"]["code"]) == set(js_m["code"])
+    assert pc.is_in_scheme("Y02E20/12", dmn, "clean")

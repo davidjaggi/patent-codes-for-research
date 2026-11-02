@@ -68,17 +68,29 @@
       "CPC"
     ],
     "build": "scripts/build_dmm2013.py",
-    "notes": "Four sectors: car, fuel, energy, lighting; 'less dirty' = grey. Transcribed from the three-column Figure 2; printed typo B06K6 corrected to B60K6; E02B in the energy-dirty column kept as printed. This is NOT the 'Dechezleprêtre et al. (2021)' cited by Jee & Srivastav."
+    "notes": "Four sectors: car, fuel, energy, lighting; 'less dirty' = grey. Transcribed from the three-column Figure 2; printed typo B06K6 corrected to B60K6; E02B in the energy-dirty column kept as printed. This is a different paper from the 'Dechezleprêtre et al. (2021)' cited by Jee & Srivastav (see dechezlepretre_muckley_neelakantan)."
   },
   "aghion_benabou_martin_roulet": {
-    "name": "Aghion, Bénabou, Martin & Roulet (2021) auto sector",
+    "name": "Aghion, Bénabou, Martin & Roulet (2020/2023) auto sector",
     "file": "data/aghion_benabou_martin_roulet/abmr2021.csv",
     "status": "complete",
-    "source": "Aghion, P., Bénabou, R., Martin, R., Roulet, A. (2021). Environmental preferences and technological choices: Is market competition clean or dirty? NBER WP 28634; AER: Insights 5(1), 2023. Appendix Table A1.",
+    "source": "Aghion, P., Bénabou, R., Martin, R., Roulet, A. (2020). Environmental preferences and technological choices: Is market competition clean or dirty? NBER WP 26921; AER: Insights 5(1), 2023. Appendix Table A1.",
     "systems": [
       "CPC"
     ],
     "build": "scripts/build_aghion2021.py",
     "notes": "Auto sector only (Y02T, F02, B60). NOT the Aghion et al. (2016, JPE) paper; its grey Y02T10 codes differ from the Jee & Srivastav grey list."
+  },
+  "dechezlepretre_muckley_neelakantan": {
+    "name": "Dechezleprêtre, Muckley & Neelakantan (2021) clean / dirty",
+    "file": "data/dechezlepretre_muckley_neelakantan/dmn2021.csv",
+    "status": "complete",
+    "source": "Dechezleprêtre, A., Muckley, C. B., Neelakantan, P. (2021). Does the Market Value Clean Innovation? Evidence from US Listed Firms. In Applied Operations Research and Financial Modelling in Energy, Springer. https://doi.org/10.1007/978-3-030-84981-8_11 (Internet Appendix 1, Tables 8-9)",
+    "systems": [
+      "IPC",
+      "CPC"
+    ],
+    "build": "scripts/build_dmn2021.py",
+    "notes": "This is the 'Dechezleprêtre et al. (2021)' that Jee & Srivastav cite for the dirty manufacturing list; the eight dirty codes are identical to the Jee & Srivastav manufacturing list. Clean = Y02E (incl. Y02E20), Y02C, Y02T, Y02B groups. Counts Y02E20 as clean, whereas Jee & Srivastav treat it as grey. The authors' related 2020 paper (European Journal of Finance 27(1-2), 31-61) may use the same codes but was not checked."
   }
 }

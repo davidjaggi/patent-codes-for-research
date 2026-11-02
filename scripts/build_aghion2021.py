@@ -1,6 +1,6 @@
 """data/aghion_benabou_martin_roulet/abmr2021.csv
 
-Source: Aghion, Bénabou, Martin, Roulet (2021), NBER WP 28634 / AER: Insights 5(1) 2023, "Environmental
+Source: Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921 / AER: Insights 5(1) 2023, "Environmental
 preferences and technological choices: Is market competition clean or dirty?", Appendix Table A1 (CPC codes).
 Auto sector only. 'other' = other automotive (B60), neither clean, dirty nor grey.
 """
@@ -20,9 +20,9 @@ R = [
  ("dirty","F02","Combustion engines"),
  ("other","B60","Vehicles in general (other automotive)"),
 ]
-SRC = "Aghion, Bénabou, Martin, Roulet (2021), NBER WP 28634, Appendix Table A1"
+SRC = "Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921, Appendix Table A1"
 root = Path(__file__).resolve().parents[1]
-rows = [dict(scheme="aghion_benabou_martin_roulet", scheme_version="NBER-2021", category=c, sector="auto", code=k,
+rows = [dict(scheme="aghion_benabou_martin_roulet", scheme_version="NBER-2020", category=c, sector="auto", code=k,
              code_to="", code_system="CPC", description=d, source=SRC) for c, k, d in R]
 with open(root / "data/aghion_benabou_martin_roulet/abmr2021.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)

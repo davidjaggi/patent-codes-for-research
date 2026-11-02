@@ -56,7 +56,7 @@ references:
     journal: "American Economic Review: Insights"
     volume: "5"
     issue: "1"
-    notes: "NBER Working Paper 28634 (2021), Appendix Table A1"
+    notes: "NBER Working Paper 26921 (April 2020), Appendix Table A1"
   - type: report
     title: "Knowledge spillovers from clean and dirty technologies: a patent citation analysis"
     authors:
@@ -66,3 +66,12 @@ references:
     year: 2013
     institution: {name: "Grantham Research Institute, LSE"}
     notes: "Grantham Research Institute Working Paper 135 / CCCEP Working Paper 151"
+  - type: book
+    title: "Does the Market Value Clean Innovation? Evidence from US Listed Firms (in: Applied Operations Research and Financial Modelling in Energy)"
+    authors:
+      - {family-names: Dechezleprêtre, given-names: Antoine}
+      - {family-names: Muckley, given-names: Cal B.}
+      - {family-names: Neelakantan, given-names: Parvati}
+    year: 2021
+    publisher: {name: Springer}
+    doi: 10.1007/978-3-030-84981-8_11
