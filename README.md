@@ -4,9 +4,11 @@ Patent classification code lists for "green"/"clean" technologies from the resea
 
 | Scheme | File | Status | Source |
 |---|---|---|---|
-| OECD ENV-TECH | `data/envtech/envtech.csv` | complete (1,244 rows) | Haščič & Migotto (2015) |
+| OECD ENV-TECH | `data/envtech/envtech.csv` | complete (1,246 rows), checked against the paper's annex | Haščič & Migotto (2015) |
 | Jee & Srivastav clean / grey / dirty | `data/jee_srivastav/jee_srivastav.csv` | complete (191 rows) | Jee & Srivastav (2023), lists as in Rozendaal (2024) Table E1 |
 | CPC Y02 / Y04S | `data/y02/y02_y04s.csv` | complete at top level (9 subclasses, each covers everything below; EPO status Dec 2021) | EPO CPC scheme |
+| Dechezleprêtre, Martin & Mohnen (2013) | `data/dechezlepretre_martin_mohnen/dmm2013.csv` | complete, hand-transcribed (59 rows; car, fuel, energy, lighting; clean/grey/dirty) | CCCEP WP 151 |
+| Aghion, Bénabou, Martin & Roulet (2021) | `data/aghion_benabou_martin_roulet/abmr2021.csv` | complete (11 rows; auto sector, CPC) | NBER WP 28634 / AER: Insights 2023 |
 | OECD ENV-TECH, expanded | `data/envtech/envtech_expanded.csv` | complete (3,150 unique codes) | Haščič & Migotto (2015), expanded by Favot et al. (2023) |
 | WIPO IPC Green Inventory | `data/ipc_green_inventory/ipc_gi.csv` | complete (1,214 codes, 170 topics with hierarchy) | WIPO 2022 list, expanded by Favot et al. (2023) |
 
@@ -30,6 +32,8 @@ pc.expand_code("F02M39-41")                 # ['F02M39', 'F02M40', 'F02M41']
 ```
 
 ## Caveats
+- Matching is structural: a subgroup code also covers its sub-subgroups (`Y02E10/70` covers `Y02E10/7005`, not the sibling `/72`); this is a digit-prefix heuristic because the full CPC tree is not shipped.
+- The two papers added last are *not* the ones Jee & Srivastav cite as "Aghion et al. (2016)" and "Dechezleprêtre et al. (2021)"; those two original sources are still to be added.
 - Subclass-level lists (ENV-TECH, IPC Green Inventory, parts of Jee & Srivastav) can label entire subclasses green and produce false positives.
 - Y02 tags change between CPC releases; record the release you use.
 - Jee & Srivastav lists are taken from Rozendaal's reproduction; verify against the published supplement before relying on them (Rozendaal lists `Y02P20/15` where the original refers to `Y02P20/151`).

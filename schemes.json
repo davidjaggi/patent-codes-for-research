@@ -9,7 +9,7 @@
       "CPC"
     ],
     "build": "scripts/build_envtech.py (raw/env_tech.xlsx, transcribed from the paper's annex)",
-    "notes": "Codes like Y02T10/72-7291 are CPC subgroup ranges kept as code/code_to; 3 rows are conditional combinations (code_type=complex)."
+    "notes": "Codes like Y02T10/72-7291 are CPC subgroup ranges kept as code/code_to; 3 rows are conditional combinations (code_type=complex). Verified against the original annex (Haščič & Migotto 2015, ENV/EPOC/WPEI(2014)6/FINAL): every code token matches except two entries missing from the spreadsheet (Y02E60/70-7892, Y02T10/10), now added by build_envtech.py. Topic assignment of each code was not re-verified."
   },
   "jee_srivastav": {
     "name": "Jee & Srivastav clean/grey/dirty",
@@ -57,5 +57,28 @@
     ],
     "build": "scripts/build_envtech_expanded.py (raw/favot2023/ENVTECH)",
     "notes": "3,150 unique codes in 4,525 topic-code rows; one code can belong to several topics. Use envtech.csv for the original range notation."
+  },
+  "dechezlepretre_martin_mohnen": {
+    "name": "Dechezleprêtre, Martin & Mohnen (2013) clean / less-dirty / dirty",
+    "file": "data/dechezlepretre_martin_mohnen/dmm2013.csv",
+    "status": "complete (hand-transcribed)",
+    "source": "Dechezleprêtre, A., Martin, R., Mohnen, M. (2013). Knowledge spillovers from clean and dirty technologies: a patent citation analysis. CCCEP WP 151 / Grantham Research Institute WP 135.",
+    "systems": [
+      "IPC",
+      "CPC"
+    ],
+    "build": "scripts/build_dmm2013.py",
+    "notes": "Four sectors: car, fuel, energy, lighting; 'less dirty' = grey. Transcribed from the three-column Figure 2; printed typo B06K6 corrected to B60K6; E02B in the energy-dirty column kept as printed. This is NOT the 'Dechezleprêtre et al. (2021)' cited by Jee & Srivastav."
+  },
+  "aghion_benabou_martin_roulet": {
+    "name": "Aghion, Bénabou, Martin & Roulet (2021) auto sector",
+    "file": "data/aghion_benabou_martin_roulet/abmr2021.csv",
+    "status": "complete",
+    "source": "Aghion, P., Bénabou, R., Martin, R., Roulet, A. (2021). Environmental preferences and technological choices: Is market competition clean or dirty? NBER WP 28634; AER: Insights 5(1), 2023. Appendix Table A1.",
+    "systems": [
+      "CPC"
+    ],
+    "build": "scripts/build_aghion2021.py",
+    "notes": "Auto sector only (Y02T, F02, B60). NOT the Aghion et al. (2016, JPE) paper; its grey Y02T10 codes differ from the Jee & Srivastav grey list."
   }
 }

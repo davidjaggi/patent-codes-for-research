@@ -14,6 +14,8 @@ if not _DATA.exists():  # source checkout
 SCHEMES = {
     "envtech": "envtech/envtech.csv",
     "envtech_expanded": "envtech/envtech_expanded.csv",
+    "dechezlepretre_martin_mohnen": "dechezlepretre_martin_mohnen/dmm2013.csv",
+    "aghion_benabou_martin_roulet": "aghion_benabou_martin_roulet/abmr2021.csv",
     "jee_srivastav": "jee_srivastav/jee_srivastav.csv",
     "y02": "y02/y02_y04s.csv",
     "ipc_gi": "ipc_green_inventory/ipc_gi.csv",

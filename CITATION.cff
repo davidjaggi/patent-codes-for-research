@@ -45,3 +45,24 @@ references:
     title: "IPC Green Inventory"
     institution: {name: "World Intellectual Property Organization (WIPO)"}
     url: "https://www.wipo.int/classifications/ipc/green-inventory/home"
+  - type: article
+    title: "Environmental preferences and technological choices: Is market competition clean or dirty?"
+    authors:
+      - {family-names: Aghion, given-names: Philippe}
+      - {family-names: Bénabou, given-names: Roland}
+      - {family-names: Martin, given-names: Ralf}
+      - {family-names: Roulet, given-names: Alexandra}
+    year: 2023
+    journal: "American Economic Review: Insights"
+    volume: "5"
+    issue: "1"
+    notes: "NBER Working Paper 28634 (2021), Appendix Table A1"
+  - type: report
+    title: "Knowledge spillovers from clean and dirty technologies: a patent citation analysis"
+    authors:
+      - {family-names: Dechezleprêtre, given-names: Antoine}
+      - {family-names: Martin, given-names: Ralf}
+      - {family-names: Mohnen, given-names: Myra}
+    year: 2013
+    institution: {name: "Grantham Research Institute, LSE"}
+    notes: "Grantham Research Institute Working Paper 135 / CCCEP Working Paper 151"
