@@ -1,0 +1,36 @@
+scheme,scheme_version,code,parent,level,title,complete
+y02,partial-2024,Y02A,,subclass,Technologies for adaptation to climate change,false
+y02,partial-2024,Y02B,,subclass,"Climate change mitigation technologies related to buildings, e.g. housing, house appliances or related end-user applications",false
+y02,partial-2024,Y02C,,subclass,"Capture, storage, sequestration or disposal of greenhouse gases [GHG]",false
+y02,partial-2024,Y02D,,subclass,"Climate change mitigation technologies in information and communication technologies [ICT], i.e. information and communication technologies aiming at the reduction of their own energy use",false
+y02,partial-2024,Y02E,,subclass,"Reduction of greenhouse gas [GHG] emissions, related to energy generation, transmission or distribution",false
+y02,partial-2024,Y02P,,subclass,Climate change mitigation technologies in the production or processing of goods,false
+y02,partial-2024,Y02T,,subclass,Climate change mitigation technologies related to transportation,false
+y02,partial-2024,Y02W,,subclass,Climate change mitigation technologies related to wastewater treatment or waste management,false
+y02,partial-2024,Y04S,,subclass,"Systems integrating technologies related to power network operation, communication or information technologies for improving the electrical power generation, transmission, distribution, management or usage, i.e. smart grids",false
+y02,partial-2024,Y02E10/10,Y02E,group,Geothermal,false
+y02,partial-2024,Y02E10/20,Y02E,group,Hydro energy,false
+y02,partial-2024,Y02E10/30,Y02E,group,"Energy from the sea, e.g. using wave energy or salinity gradient",false
+y02,partial-2024,Y02E10/40,Y02E,group,Solar thermal energy,false
+y02,partial-2024,Y02E10/50,Y02E,group,Photovoltaic [PV] energy,false
+y02,partial-2024,Y02E10/60,Y02E,group,Thermal-PV hybrids,false
+y02,partial-2024,Y02E10/70,Y02E,group,Wind energy,false
+y02,partial-2024,Y02E20,Y02E,group,Combustion technologies with mitigation potential,false
+y02,partial-2024,Y02E30,Y02E,group,Nuclear energy,false
+y02,partial-2024,Y02E40,Y02E,group,"Efficient electrical power generation, transmission or distribution",false
+y02,partial-2024,Y02E50,Y02E,group,Technologies for the production of fuel of non-fossil origin,false
+y02,partial-2024,Y02E60,Y02E,group,Enabling technologies; technologies with a potential or indirect contribution to GHG emissions mitigation,false
+y02,partial-2024,Y02E70,Y02E,group,Other energy conversion or management systems reducing GHG emissions,false
+y02,partial-2024,Y02P10,Y02P,group,Technologies relating to metal processing,false
+y02,partial-2024,Y02P20,Y02P,group,Technologies relating to chemical industry,false
+y02,partial-2024,Y02P30,Y02P,group,Technologies relating to oil refining and petrochemical industry,false
+y02,partial-2024,Y02P40,Y02P,group,Technologies relating to the processing of minerals,false
+y02,partial-2024,Y02P60,Y02P,group,"Technologies relating to agriculture, livestock or agroalimentary industries",false
+y02,partial-2024,Y02P70,Y02P,group,Climate change mitigation technologies in the production process for final industrial or consumer products,false
+y02,partial-2024,Y02P80,Y02P,group,Climate change mitigation technologies for sector-wide applications,false
+y02,partial-2024,Y02P90,Y02P,group,Enabling technologies with a potential contribution to GHG emissions mitigation,false
+y02,partial-2024,Y02T10,Y02T,group,Road transport of goods or passengers,false
+y02,partial-2024,Y02T30,Y02T,group,Transportation of goods or passengers via railways,false
+y02,partial-2024,Y02T50,Y02T,group,Aeronautics or air transport,false
+y02,partial-2024,Y02T70,Y02T,group,Maritime or waterways transport,false
+y02,partial-2024,Y02T90,Y02T,group,Enabling technologies or technologies with a potential or indirect contribution to GHG emissions mitigation,false

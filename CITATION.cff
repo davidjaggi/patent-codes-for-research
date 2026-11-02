@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use these code lists in your research, please cite this repository and the original papers listed under references."
+title: "patent-codes-for-research: machine-readable green patent classification codes"
+type: dataset
+version: 0.1.0
+date-released: 2026-11-02
+license: MIT
+repository-code: "https://github.com/davidjaggi/patent-codes-for-research"
+authors:
+  - family-names: Jaggi
+    given-names: David
+    affiliation: "ZHAW"
+keywords: [patents, CPC, IPC, Y02, green innovation, sustainable finance]
+references:
+  - type: report
+    title: "Measuring environmental innovation using patent data"
+    authors: [{family-names: Haščič, given-names: Ivan}, {family-names: Migotto, given-names: Mauro}]
+    year: 2015
+    institution: {name: OECD}
+    notes: "OECD Environment Working Papers No. 89 (ENV-TECH)"
+    doi: 10.1787/5js009kf48xw-en
+  - type: article
+    title: "Pivoting from Dirty to Clean: The Intellectual Distance between Clean and Dirty Technologies"
+    authors: [{family-names: Jee, given-names: Seung Jin}, {family-names: Srivastav, given-names: Sugandha}]
+    year: 2023
+  - type: unpublished
+    title: "Market Power, Innovation, and the Green Transition"
+    authors: [{family-names: Rozendaal, given-names: Rik}]
+    year: 2024
+    notes: "Table E1 reproduces the Jee & Srivastav code lists"

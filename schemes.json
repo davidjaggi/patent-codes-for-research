@@ -1,0 +1,37 @@
+{
+  "envtech": {
+    "name": "OECD ENV-TECH",
+    "file": "data/envtech/envtech.csv",
+    "status": "complete",
+    "source": "Haščič, I. & Migotto, M. (2015). Measuring environmental innovation using patent data. OECD Environment Working Papers 89. https://doi.org/10.1787/5js009kf48xw-en",
+    "systems": ["IPC", "CPC"],
+    "build": "scripts/build_envtech.py (raw/env_tech.xlsx, transcribed from the paper's annex)",
+    "notes": "Codes like Y02T10/72-7291 are CPC subgroup ranges kept as code/code_to; 3 rows are conditional combinations (code_type=complex)."
+  },
+  "jee_srivastav": {
+    "name": "Jee & Srivastav clean/grey/dirty",
+    "file": "data/jee_srivastav/jee_srivastav.csv",
+    "status": "complete",
+    "source": "Jee, S. J. & Srivastav, S. (2023/24). Pivoting from Dirty to Clean: The Intellectual Distance between Clean and Dirty Technologies, Supplementary Table 1. Lists transcribed from Rozendaal (2024), Table E1.",
+    "systems": ["IPC", "CPC"],
+    "build": "scripts/build_jee_srivastav.py",
+    "notes": "Grey is removed from clean; patents both clean and dirty are excluded in the original analysis. Journal reference/DOI still to be added."
+  },
+  "y02": {
+    "name": "CPC Y02/Y04S tagging scheme",
+    "file": "data/y02/y02_y04s.csv",
+    "status": "partial",
+    "source": "EPO/CPC Y02 and Y04S tagging scheme.",
+    "systems": ["CPC"],
+    "build": "scripts/build_y02.py",
+    "notes": "Only subclass headings and groups named in the papers. Full tree to be generated from an official CPC release; titles of groups are to be verified."
+  },
+  "ipc_gi": {
+    "name": "WIPO IPC Green Inventory",
+    "file": "data/ipc_green_inventory/ipc_gi.csv",
+    "status": "empty",
+    "source": "WIPO IPC Green Inventory (https://www.wipo.int/classifications/ipc/green-inventory/home)",
+    "systems": ["IPC"],
+    "notes": "Placeholder (header only): wipo.int was not reachable when the repo was set up."
+  }
+}
