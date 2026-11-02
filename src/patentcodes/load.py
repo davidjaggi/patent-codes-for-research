@@ -18,6 +18,7 @@ SCHEMES = {
     "aghion_benabou_martin_roulet": "aghion_benabou_martin_roulet/abmr2021.csv",
     "dechezlepretre_muckley_neelakantan": "dechezlepretre_muckley_neelakantan/dmn2021.csv",
     "aghion_2016": "aghion_2016/aghion2016.csv",
+    "popp_2019": "popp_2019/popp2019.csv",
     "jee_srivastav": "jee_srivastav/jee_srivastav.csv",
     "y02": "y02/y02_y04s.csv",
     "ipc_gi": "ipc_green_inventory/ipc_gi.csv",

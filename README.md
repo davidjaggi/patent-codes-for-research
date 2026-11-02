@@ -9,6 +9,7 @@ Patent classification code lists for "green"/"clean" technologies from the resea
 | CPC Y02 / Y04S | `data/y02/y02_y04s.csv` | complete at top level (9 subclasses, each covers everything below; EPO status Dec 2021) | EPO CPC scheme |
 | Dechezleprêtre, Martin & Mohnen (2013) | `data/dechezlepretre_martin_mohnen/dmm2013.csv` | complete, hand-transcribed (59 rows; car, fuel, energy, lighting; clean/grey/dirty) | CCCEP WP 151 |
 | Dechezleprêtre, Muckley & Neelakantan (2021) | `data/dechezlepretre_muckley_neelakantan/dmn2021.csv` | complete (30 rows; clean/dirty) | Springer 2021, the paper Jee & Srivastav cite |
+| Popp, Pless, Haščič & Johnstone | `data/popp_2019/popp2019.csv` | complete (25 rows; clean energy, enabling, hydrofracturing; CPC) | NBER chapter draft Dec 2019 (published 2022) |
 | Aghion et al. (2016, JPE) | `data/aghion_2016/aghion2016.csv` | complete (26 rows; auto IPC, clean/dirty/grey), original source of the Jee & Srivastav transport lists | J. Political Economy 124(1) |
 | Aghion, Bénabou, Martin & Roulet (2020/2023) | `data/aghion_benabou_martin_roulet/abmr2021.csv` | complete (11 rows; auto sector, CPC) | NBER WP 26921 / AER: Insights 2023 |
 | OECD ENV-TECH, expanded | `data/envtech/envtech_expanded.csv` | complete (3,150 unique codes) | Haščič & Migotto (2015), expanded by Favot et al. (2023) |

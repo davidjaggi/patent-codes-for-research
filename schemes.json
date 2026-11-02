@@ -21,7 +21,7 @@
       "CPC"
     ],
     "build": "scripts/build_jee_srivastav.py",
-    "notes": "Grey is removed from clean; patents both clean and dirty are excluded in the original analysis. Journal reference/DOI still to be added. Transport lists checked against the original Aghion et al. (2016) Table 1 (see aghion_2016): dirty and grey identical; clean differs only by the IPC-2019 B60L11 split."
+    "notes": "Grey is removed from clean; patents both clean and dirty are excluded in the original analysis. Journal reference/DOI still to be added. Transport lists checked against the original Aghion et al. (2016) Table 1 (see aghion_2016): dirty and grey identical; clean differs only by the IPC-2019 B60L11 split. Clean-energy lists consistent with Popp et al. (see popp_2019)."
   },
   "y02": {
     "name": "CPC Y02/Y04S tagging scheme",
@@ -103,5 +103,16 @@
     ],
     "build": "scripts/build_aghion2016.py",
     "notes": "Original source of the Jee & Srivastav transport lists. Dirty and grey codes are identical to Jee & Srivastav; clean codes differ only because IPC 2019 moved B60L11 to B60L50-B60L58 (Jee & Srivastav note 4). Not to be confused with aghion_benabou_martin_roulet (2020/2023)."
+  },
+  "popp_2019": {
+    "name": "Popp, Pless, Haščič & Johnstone: clean energy and hydrofracturing codes",
+    "file": "data/popp_2019/popp2019.csv",
+    "status": "complete (Appendix Table A)",
+    "source": "Popp, D., Pless, J., Haščič, I., Johnstone, N. Innovation and Entrepreneurship in the Energy Sector. NBER chapter draft, 6 Dec 2019 (https://www.nber.org/system/files/chapters/c14375/revisions/c14375.rev0.pdf); published 2022 in The Role of Innovation and Entrepreneurship in Economic Growth, University of Chicago Press, pp. 175-248",
+    "systems": [
+      "CPC"
+    ],
+    "build": "scripts/build_popp2019.py",
+    "notes": "Clean energy and enabling technologies (Y02/Y04S groups) plus hydrofracturing CPC codes (category 'fossil'; some only valid together with a keyword search, see requires_keywords). Does not contain a general dirty-energy list; Jee & Srivastav take that from IEA (2021). Y02E60/70-7892 here also confirms the entry added to envtech."
   }
 }
