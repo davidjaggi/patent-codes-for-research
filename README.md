@@ -46,7 +46,7 @@ pytest
 ```
 
 ## Citing
-See `CITATION.cff` (GitHub's "Cite this repository"). Please also cite the original papers for each scheme you use. Licence: MIT for the code and compilation; the underlying classifications belong to their publishers (OECD, EPO/USPTO, WIPO).
+See `CITATION.cff` (GitHub's "Cite this repository") for citing this repository. Please also cite the original paper of each scheme you use; the full source references are in `schemes.json`. Licence: MIT for the code and compilation; the underlying classifications belong to their publishers (OECD, EPO/USPTO, WIPO).
 
 ## Attribution
 `raw/favot2023/` and the files derived from it are from Favot et al. (2023), CC-BY-4.0 - cite the paper when using `ipc_gi.csv` or `envtech_expanded.csv`. S. Chen's [greenpatent](https://github.com/shuangchenfinance/greenpatent) was used as a cross-check of the IPC list (see `schemes.json`).
