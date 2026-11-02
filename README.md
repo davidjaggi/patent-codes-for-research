@@ -6,11 +6,11 @@ Patent classification code lists for "green"/"clean" technologies from the resea
 |---|---|---|---|
 | OECD ENV-TECH | `data/envtech/envtech.csv` | complete (1,244 rows) | Haščič & Migotto (2015) |
 | Jee & Srivastav clean / grey / dirty | `data/jee_srivastav/jee_srivastav.csv` | complete (191 rows) | Jee & Srivastav (2023), lists as in Rozendaal (2024) Table E1 |
-| CPC Y02 / Y04S | `data/y02/y02_y04s.csv` | **partial**: subclasses + groups named in the papers | EPO CPC scheme |
+| CPC Y02 / Y04S | `data/y02/y02_y04s.csv` | complete at top level (9 subclasses, each covers everything below; EPO status Dec 2021) | EPO CPC scheme |
 | OECD ENV-TECH, expanded | `data/envtech/envtech_expanded.csv` | complete (3,150 unique codes) | Haščič & Migotto (2015), expanded by Favot et al. (2023) |
 | WIPO IPC Green Inventory | `data/ipc_green_inventory/ipc_gi.csv` | complete (1,214 codes, 170 topics with hierarchy) | WIPO 2022 list, expanded by Favot et al. (2023) |
 
-The full Y02/Y04S tree still needs to be generated from the official EPO/CPC release (that host was not reachable when this repo was created). The IPC Green Inventory and expanded ENV-TECH come from the replication package of Favot et al. (2023), whose methodology compares exactly these three schemes (ENV-TECH, IPC Green Inventory, Y02/Y04S). Per-scheme details are in `schemes.json`.
+Y02/Y04S is stored as the nine top-level subclasses; `covers("Y02B", code)` matches every group beneath, so no deeper tree is needed to flag tagged patents. The IPC Green Inventory and expanded ENV-TECH come from the replication package of Favot et al. (2023), whose methodology compares exactly these three schemes (ENV-TECH, IPC Green Inventory, Y02/Y04S). Per-scheme details are in `schemes.json`.
 
 ## Columns
 Common: `scheme, scheme_version, code, code_to, code_system, source`. ENV-TECH adds `level_1..3, description, code_raw, code_type` (`code` | `range` | `complex`); Jee & Srivastav adds `category` (clean/grey/dirty), `sector`, `subsector`; Y02 adds `parent, level, title`.
@@ -32,7 +32,6 @@ pc.expand_code("F02M39-41")                 # ['F02M39', 'F02M40', 'F02M41']
 ## Caveats
 - Subclass-level lists (ENV-TECH, IPC Green Inventory, parts of Jee & Srivastav) can label entire subclasses green and produce false positives.
 - Y02 tags change between CPC releases; record the release you use.
-- Group titles in the partial Y02 file are paraphrased and should be checked against the official scheme.
 - Jee & Srivastav lists are taken from Rozendaal's reproduction; verify against the published supplement before relying on them (Rozendaal lists `Y02P20/15` where the original refers to `Y02P20/151`).
 
 ## Rebuild / test

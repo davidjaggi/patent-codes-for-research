@@ -26,13 +26,13 @@
   "y02": {
     "name": "CPC Y02/Y04S tagging scheme",
     "file": "data/y02/y02_y04s.csv",
-    "status": "partial",
+    "status": "complete (top-level subclasses)",
     "source": "EPO/CPC Y02 and Y04S tagging scheme.",
     "systems": [
       "CPC"
     ],
     "build": "scripts/build_y02.py",
-    "notes": "Only subclass headings and groups named in the papers. Full tree to be generated from an official CPC release; titles of groups are to be verified. EPO lists the status of all nine sections (Y02A, B, C, D, E, P, T, W and Y04S) as 'December 2021' (https://www.epo.org/en/news-events/in-focus/classification/classification/updatesYO2andY04S); this is recorded in the epo_status column. The page itself could not be opened from this environment.",
+    "notes": "Nine subclass codes (Y02A-Y02W, Y04S); each covers all groups and subgroups below it, so no deeper tree is needed to flag Y02/Y04S patents. EPO status of all sections: December 2021 (https://www.epo.org/en/news-events/in-focus/classification/classification/updatesYO2andY04S, page text supplied by the user). Use codes like Y02E10/70 only via the Jee & Srivastav sector breakdown.",
     "epo_status": "December 2021"
   },
   "ipc_gi": {

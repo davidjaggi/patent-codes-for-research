@@ -1,36 +1,10 @@
-scheme,scheme_version,code,parent,level,title,epo_status,complete
-y02,partial,Y02A,,subclass,Technologies for adaptation to climate change,December 2021,false
-y02,partial,Y02B,,subclass,"Climate change mitigation technologies related to buildings, e.g. housing, house appliances or related end-user applications",December 2021,false
-y02,partial,Y02C,,subclass,"Capture, storage, sequestration or disposal of greenhouse gases [GHG]",December 2021,false
-y02,partial,Y02D,,subclass,"Climate change mitigation technologies in information and communication technologies [ICT], i.e. information and communication technologies aiming at the reduction of their own energy use",December 2021,false
-y02,partial,Y02E,,subclass,"Reduction of greenhouse gas [GHG] emissions, related to energy generation, transmission or distribution",December 2021,false
-y02,partial,Y02P,,subclass,Climate change mitigation technologies in the production or processing of goods,December 2021,false
-y02,partial,Y02T,,subclass,Climate change mitigation technologies related to transportation,December 2021,false
-y02,partial,Y02W,,subclass,Climate change mitigation technologies related to wastewater treatment or waste management,December 2021,false
-y02,partial,Y04S,,subclass,"Systems integrating technologies related to power network operation, communication or information technologies for improving the electrical power generation, transmission, distribution, management or usage, i.e. smart grids",December 2021,false
-y02,partial,Y02E10/10,Y02E,group,Geothermal,December 2021,false
-y02,partial,Y02E10/20,Y02E,group,Hydro energy,December 2021,false
-y02,partial,Y02E10/30,Y02E,group,"Energy from the sea, e.g. using wave energy or salinity gradient",December 2021,false
-y02,partial,Y02E10/40,Y02E,group,Solar thermal energy,December 2021,false
-y02,partial,Y02E10/50,Y02E,group,Photovoltaic [PV] energy,December 2021,false
-y02,partial,Y02E10/60,Y02E,group,Thermal-PV hybrids,December 2021,false
-y02,partial,Y02E10/70,Y02E,group,Wind energy,December 2021,false
-y02,partial,Y02E20,Y02E,group,Combustion technologies with mitigation potential,December 2021,false
-y02,partial,Y02E30,Y02E,group,Nuclear energy,December 2021,false
-y02,partial,Y02E40,Y02E,group,"Efficient electrical power generation, transmission or distribution",December 2021,false
-y02,partial,Y02E50,Y02E,group,Technologies for the production of fuel of non-fossil origin,December 2021,false
-y02,partial,Y02E60,Y02E,group,Enabling technologies; technologies with a potential or indirect contribution to GHG emissions mitigation,December 2021,false
-y02,partial,Y02E70,Y02E,group,Other energy conversion or management systems reducing GHG emissions,December 2021,false
-y02,partial,Y02P10,Y02P,group,Technologies relating to metal processing,December 2021,false
-y02,partial,Y02P20,Y02P,group,Technologies relating to chemical industry,December 2021,false
-y02,partial,Y02P30,Y02P,group,Technologies relating to oil refining and petrochemical industry,December 2021,false
-y02,partial,Y02P40,Y02P,group,Technologies relating to the processing of minerals,December 2021,false
-y02,partial,Y02P60,Y02P,group,"Technologies relating to agriculture, livestock or agroalimentary industries",December 2021,false
-y02,partial,Y02P70,Y02P,group,Climate change mitigation technologies in the production process for final industrial or consumer products,December 2021,false
-y02,partial,Y02P80,Y02P,group,Climate change mitigation technologies for sector-wide applications,December 2021,false
-y02,partial,Y02P90,Y02P,group,Enabling technologies with a potential contribution to GHG emissions mitigation,December 2021,false
-y02,partial,Y02T10,Y02T,group,Road transport of goods or passengers,December 2021,false
-y02,partial,Y02T30,Y02T,group,Transportation of goods or passengers via railways,December 2021,false
-y02,partial,Y02T50,Y02T,group,Aeronautics or air transport,December 2021,false
-y02,partial,Y02T70,Y02T,group,Maritime or waterways transport,December 2021,false
-y02,partial,Y02T90,Y02T,group,Enabling technologies or technologies with a potential or indirect contribution to GHG emissions mitigation,December 2021,false
+scheme,scheme_version,code,code_to,code_system,level,title,epo_status
+y02,December 2021,Y02A,,CPC,subclass,Adaptation to climate change,December 2021
+y02,December 2021,Y02B,,CPC,subclass,Buildings,December 2021
+y02,December 2021,Y02C,,CPC,subclass,Capture and storage of greenhouse gases,December 2021
+y02,December 2021,Y02D,,CPC,subclass,ICT aiming at the reduction of own energy use,December 2021
+y02,December 2021,Y02E,,CPC,subclass,"Production, distribution and transport of energy",December 2021
+y02,December 2021,Y02P,,CPC,subclass,Industry and agriculture,December 2021
+y02,December 2021,Y02T,,CPC,subclass,Transportation,December 2021
+y02,December 2021,Y02W,,CPC,subclass,Waste and wastewater,December 2021
+y02,December 2021,Y04S,,CPC,subclass,Smart grids,December 2021

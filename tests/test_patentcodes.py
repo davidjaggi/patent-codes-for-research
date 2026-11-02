@@ -53,3 +53,11 @@ def test_expanded_counts():
     assert pc.load("envtech_expanded")["code"].nunique() == 3150
     gi = pc.load("ipc_gi")
     assert len(gi) == 1214 and gi["topic"].nunique() == 170
+
+
+def test_y02_top_level_covers_everything_below():
+    y = pc.load("y02")
+    assert sorted(y["code"]) == ["Y02A", "Y02B", "Y02C", "Y02D", "Y02E", "Y02P", "Y02T", "Y02W", "Y04S"]
+    for code in ["Y02E10/70", "Y02P20/151", "Y04S10/12", "Y02T10/7258", "Y02A90/10"]:
+        assert pc.is_in_scheme(code, y), code
+    assert not pc.is_in_scheme("H01L31/00", y)
