@@ -21,7 +21,7 @@
       "CPC"
     ],
     "build": "scripts/build_jee_srivastav.py",
-    "notes": "Grey is removed from clean; patents both clean and dirty are excluded in the original analysis. Journal reference/DOI still to be added."
+    "notes": "Grey is removed from clean; patents both clean and dirty are excluded in the original analysis. Journal reference/DOI still to be added. Transport lists checked against the original Aghion et al. (2016) Table 1 (see aghion_2016): dirty and grey identical; clean differs only by the IPC-2019 B60L11 split."
   },
   "y02": {
     "name": "CPC Y02/Y04S tagging scheme",
@@ -92,5 +92,16 @@
     ],
     "build": "scripts/build_dmn2021.py",
     "notes": "This is the 'Dechezleprêtre et al. (2021)' that Jee & Srivastav cite for the dirty manufacturing list; the eight dirty codes are identical to the Jee & Srivastav manufacturing list. Clean = Y02E (incl. Y02E20), Y02C, Y02T, Y02B groups. Counts Y02E20 as clean, whereas Jee & Srivastav treat it as grey. The authors' related 2020 paper (European Journal of Finance 27(1-2), 31-61) may use the same codes but was not checked."
+  },
+  "aghion_2016": {
+    "name": "Aghion et al. (2016) auto-industry clean / dirty / grey",
+    "file": "data/aghion_2016/aghion2016.csv",
+    "status": "complete",
+    "source": "Aghion, P., Dechezleprêtre, A., Hémous, D., Martin, R., Van Reenen, J. (2016). Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry. Journal of Political Economy 124(1): 1-51, Table 1",
+    "systems": [
+      "IPC"
+    ],
+    "build": "scripts/build_aghion2016.py",
+    "notes": "Original source of the Jee & Srivastav transport lists. Dirty and grey codes are identical to Jee & Srivastav; clean codes differ only because IPC 2019 moved B60L11 to B60L50-B60L58 (Jee & Srivastav note 4). Not to be confused with aghion_benabou_martin_roulet (2020/2023)."
   }
 }

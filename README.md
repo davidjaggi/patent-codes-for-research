@@ -9,6 +9,7 @@ Patent classification code lists for "green"/"clean" technologies from the resea
 | CPC Y02 / Y04S | `data/y02/y02_y04s.csv` | complete at top level (9 subclasses, each covers everything below; EPO status Dec 2021) | EPO CPC scheme |
 | Dechezleprêtre, Martin & Mohnen (2013) | `data/dechezlepretre_martin_mohnen/dmm2013.csv` | complete, hand-transcribed (59 rows; car, fuel, energy, lighting; clean/grey/dirty) | CCCEP WP 151 |
 | Dechezleprêtre, Muckley & Neelakantan (2021) | `data/dechezlepretre_muckley_neelakantan/dmn2021.csv` | complete (30 rows; clean/dirty) | Springer 2021, the paper Jee & Srivastav cite |
+| Aghion et al. (2016, JPE) | `data/aghion_2016/aghion2016.csv` | complete (26 rows; auto IPC, clean/dirty/grey), original source of the Jee & Srivastav transport lists | J. Political Economy 124(1) |
 | Aghion, Bénabou, Martin & Roulet (2020/2023) | `data/aghion_benabou_martin_roulet/abmr2021.csv` | complete (11 rows; auto sector, CPC) | NBER WP 26921 / AER: Insights 2023 |
 | OECD ENV-TECH, expanded | `data/envtech/envtech_expanded.csv` | complete (3,150 unique codes) | Haščič & Migotto (2015), expanded by Favot et al. (2023) |
 | WIPO IPC Green Inventory | `data/ipc_green_inventory/ipc_gi.csv` | complete (1,214 codes, 170 topics with hierarchy) | WIPO 2022 list, expanded by Favot et al. (2023) |
@@ -34,7 +35,7 @@ pc.expand_code("F02M39-41")                 # ['F02M39', 'F02M40', 'F02M41']
 
 ## Caveats
 - Matching is structural: a subgroup code also covers its sub-subgroups (`Y02E10/70` covers `Y02E10/7005`, not the sibling `/72`); this is a digit-prefix heuristic because the full CPC tree is not shipped.
-- Jee & Srivastav's dirty manufacturing list is confirmed by Dechezleprêtre, Muckley & Neelakantan (2021) (same eight codes). The Aghion et al. paper added here is the 2020 NBER/2023 AER: Insights one, not Aghion et al. (2016, *JPE*), which is still to be added.
+- Jee & Srivastav's dirty manufacturing list is confirmed by Dechezleprêtre, Muckley & Neelakantan (2021) (same eight codes). The Aghion, Bénabou, Martin & Roulet paper (2020 NBER / 2023 AER: Insights) is a different paper from Aghion et al. (2016, *JPE*), which is also included.
 - Subclass-level lists (ENV-TECH, IPC Green Inventory, parts of Jee & Srivastav) can label entire subclasses green and produce false positives.
 - Y02 tags change between CPC releases; record the release you use.
 - Jee & Srivastav lists are taken from Rozendaal's reproduction; verify against the published supplement before relying on them (Rozendaal lists `Y02P20/15` where the original refers to `Y02P20/151`).

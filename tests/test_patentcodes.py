@@ -26,7 +26,7 @@ def test_covers():
     assert not pc.covers("Y02T10/72", "Y02T10/7300", code_to="Y02T10/7291")
 
 
-@pytest.mark.parametrize("scheme", ["envtech", "jee_srivastav", "y02", "ipc_gi", "envtech_expanded", "dechezlepretre_martin_mohnen", "aghion_benabou_martin_roulet", "dechezlepretre_muckley_neelakantan"])
+@pytest.mark.parametrize("scheme", ["envtech", "jee_srivastav", "y02", "ipc_gi", "envtech_expanded", "dechezlepretre_martin_mohnen", "aghion_benabou_martin_roulet", "dechezlepretre_muckley_neelakantan", "aghion_2016"])
 def test_schemes_load_and_codes_valid(scheme):
     df = pc.load(scheme)
     assert len(df) > 0
@@ -88,3 +88,13 @@ def test_dmn_dirty_equals_jee_srivastav_manufacturing_dirty():
     js_m = js[(js["category"] == "dirty") & (js["sector"] == "Manufacturing")]
     assert set(dmn[dmn["category"] == "dirty"]["code"]) == set(js_m["code"])
     assert pc.is_in_scheme("Y02E20/12", dmn, "clean")
+
+
+def test_aghion_2016_consistent_with_jee_srivastav_transport():
+    ag, js = pc.load("aghion_2016"), pc.load("jee_srivastav")
+    jt = js[js["sector"] == "Transport"]
+    for cat in ("clean", "grey", "dirty"):
+        for code in ag[ag["category"] == cat]["code"]:
+            assert pc.is_in_scheme(code, jt, cat), (cat, code)
+    d = ag[ag["category"] == "dirty"]
+    assert set(d["code"]) == set(jt[(jt["category"] == "dirty") & (jt["code_system"] == "IPC")]["code"])
