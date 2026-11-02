@@ -32,7 +32,8 @@
       "CPC"
     ],
     "build": "scripts/build_y02.py",
-    "notes": "Only subclass headings and groups named in the papers. Full tree to be generated from an official CPC release; titles of groups are to be verified."
+    "notes": "Only subclass headings and groups named in the papers. Full tree to be generated from an official CPC release; titles of groups are to be verified. EPO lists the status of all nine sections (Y02A, B, C, D, E, P, T, W and Y04S) as 'December 2021' (https://www.epo.org/en/news-events/in-focus/classification/classification/updatesYO2andY04S); this is recorded in the epo_status column. The page itself could not be opened from this environment.",
+    "epo_status": "December 2021"
   },
   "ipc_gi": {
     "name": "WIPO IPC Green Inventory",

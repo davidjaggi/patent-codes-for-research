@@ -34,9 +34,12 @@ GRP = [  # (code, parent, label as used in the papers)
  ("Y02T10","Y02T","Road transport of goods or passengers"),("Y02T30","Y02T","Transportation of goods or passengers via railways"),
  ("Y02T50","Y02T","Aeronautics or air transport"),("Y02T70","Y02T","Maritime or waterways transport"),("Y02T90","Y02T","Enabling technologies or technologies with a potential or indirect contribution to GHG emissions mitigation"),
 ]
+EPO_URL = "https://www.epo.org/en/news-events/in-focus/classification/classification/updatesYO2andY04S"
+EPO_STATUS = "December 2021"  # status listed by the EPO for every section Y02A-Y02W and Y04S (page text supplied by the user)
+
 root = Path(__file__).resolve().parents[1]
-rows = [dict(scheme="y02", scheme_version="partial-2024", code=c, parent="", level="subclass", title=t, complete="false") for c, t in SUB]
-rows += [dict(scheme="y02", scheme_version="partial-2024", code=c, parent=p, level="group", title=t, complete="false") for c, p, t in GRP]
+rows = [dict(scheme="y02", scheme_version="partial", code=c, parent="", level="subclass", title=t, epo_status=EPO_STATUS, complete="false") for c, t in SUB]
+rows += [dict(scheme="y02", scheme_version="partial", code=c, parent=p, level="group", title=t, epo_status=EPO_STATUS, complete="false") for c, p, t in GRP]
 with open(root / "data/y02/y02_y04s.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
 print(len(rows))
