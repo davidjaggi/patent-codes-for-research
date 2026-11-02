@@ -37,12 +37,24 @@
   "ipc_gi": {
     "name": "WIPO IPC Green Inventory",
     "file": "data/ipc_green_inventory/ipc_gi.csv",
-    "status": "complete (flat)",
-    "source": "WIPO IPC Green Inventory (https://www.wipo.int/classifications/ipc/green-inventory/home), expanded to single codes by Shuang Chen, https://github.com/shuangchenfinance/greenpatent (MIT)",
+    "status": "complete",
+    "source": "WIPO IPC Green Inventory (2022 list), expanded and checked against PATSTAT by Favot, M., Vesnic, L., Priore, R., Bincoletto, A., Morea, F. (2023). Green patents and green codes: how different methodologies lead to different results. Resources, Conservation & Recycling Advances 200132. https://doi.org/10.1016/j.rcradv.2023.200132 ; data/code https://gitlab.com/area-science-park-sustainability/green-patents (CC-BY-4.0)",
     "systems": [
       "IPC"
     ],
-    "notes": "1 row per IPC code; the WIPO topic hierarchy and descriptions are not included in the source file (topic_1/topic_2/description empty). Verify against the WIPO page and record the inventory version.",
-    "build": "scripts/build_ipc_gi.py (raw/ipc_green_inventory_chen.xlsx)"
+    "notes": "1,214 codes, 170 leaf topics with topic_1/topic_2 hierarchy. Cross-check: S. Chen's list (github.com/shuangchenfinance/greenpatent) expands ranges numerically and differs substantially (553 codes in common, 661 only Favot, 405 only Chen); Favot is used because it is validated against real IPC symbols.",
+    "build": "scripts/build_ipc_gi.py (raw/favot2023)"
+  },
+  "envtech_expanded": {
+    "name": "OECD ENV-TECH, ranges expanded",
+    "file": "data/envtech/envtech_expanded.csv",
+    "status": "complete",
+    "source": "Haščič & Migotto (2015), expanded per topic by Favot, M., Vesnic, L., Priore, R., Bincoletto, A., Morea, F. (2023). Green patents and green codes: how different methodologies lead to different results. Resources, Conservation & Recycling Advances 200132. https://doi.org/10.1016/j.rcradv.2023.200132 ; data/code https://gitlab.com/area-science-park-sustainability/green-patents (CC-BY-4.0)",
+    "systems": [
+      "IPC",
+      "CPC"
+    ],
+    "build": "scripts/build_envtech_expanded.py (raw/favot2023/ENVTECH)",
+    "notes": "3,150 unique codes in 4,525 topic-code rows; one code can belong to several topics. Use envtech.csv for the original range notation."
   }
 }

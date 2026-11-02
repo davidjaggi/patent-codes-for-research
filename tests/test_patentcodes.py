@@ -26,7 +26,7 @@ def test_covers():
     assert not pc.covers("Y02T10/72", "Y02T10/7300", code_to="Y02T10/7291")
 
 
-@pytest.mark.parametrize("scheme", ["envtech", "jee_srivastav", "y02", "ipc_gi"])
+@pytest.mark.parametrize("scheme", ["envtech", "jee_srivastav", "y02", "ipc_gi", "envtech_expanded"])
 def test_schemes_load_and_codes_valid(scheme):
     df = pc.load(scheme)
     assert len(df) > 0
@@ -47,3 +47,9 @@ def test_jee_srivastav_categories():
 def test_metadata_matches_files():
     meta = pc.metadata()
     assert set(meta) == set(pc.SCHEMES)
+
+
+def test_expanded_counts():
+    assert pc.load("envtech_expanded")["code"].nunique() == 3150
+    gi = pc.load("ipc_gi")
+    assert len(gi) == 1214 and gi["topic"].nunique() == 170

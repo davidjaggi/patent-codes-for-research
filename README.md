@@ -7,9 +7,10 @@ Patent classification code lists for "green"/"clean" technologies from the resea
 | OECD ENV-TECH | `data/envtech/envtech.csv` | complete (1,244 rows) | Haščič & Migotto (2015) |
 | Jee & Srivastav clean / grey / dirty | `data/jee_srivastav/jee_srivastav.csv` | complete (191 rows) | Jee & Srivastav (2023), lists as in Rozendaal (2024) Table E1 |
 | CPC Y02 / Y04S | `data/y02/y02_y04s.csv` | **partial**: subclasses + groups named in the papers | EPO CPC scheme |
-| WIPO IPC Green Inventory | `data/ipc_green_inventory/ipc_gi.csv` | complete code list (958 unique codes), **no topic hierarchy** | WIPO, expanded by [S. Chen](https://github.com/shuangchenfinance/greenpatent) |
+| OECD ENV-TECH, expanded | `data/envtech/envtech_expanded.csv` | complete (3,150 unique codes) | Haščič & Migotto (2015), expanded by Favot et al. (2023) |
+| WIPO IPC Green Inventory | `data/ipc_green_inventory/ipc_gi.csv` | complete (1,214 codes, 170 topics with hierarchy) | WIPO 2022 list, expanded by Favot et al. (2023) |
 
-The full Y02/Y04S tree still needs to be generated from the official EPO/CPC release, and the IPC Green Inventory should be cross-checked against WIPO and enriched with its topic hierarchy (those hosts were not reachable when this repo was created). Per-scheme details are in `schemes.json`.
+The full Y02/Y04S tree still needs to be generated from the official EPO/CPC release (that host was not reachable when this repo was created). The IPC Green Inventory and expanded ENV-TECH come from the replication package of Favot et al. (2023), whose methodology compares exactly these three schemes (ENV-TECH, IPC Green Inventory, Y02/Y04S). Per-scheme details are in `schemes.json`.
 
 ## Columns
 Common: `scheme, scheme_version, code, code_to, code_system, source`. ENV-TECH adds `level_1..3, description, code_raw, code_type` (`code` | `range` | `complex`); Jee & Srivastav adds `category` (clean/grey/dirty), `sector`, `subsector`; Y02 adds `parent, level, title`.
@@ -42,3 +43,6 @@ pytest
 
 ## Citing
 See `CITATION.cff` (GitHub's "Cite this repository"). Please also cite the original papers for each scheme you use. Licence: MIT for the code and compilation; the underlying classifications belong to their publishers (OECD, EPO/USPTO, WIPO).
+
+## Attribution
+`raw/favot2023/` and the files derived from it are from Favot et al. (2023), CC-BY-4.0 - cite the paper when using `ipc_gi.csv` or `envtech_expanded.csv`. S. Chen's [greenpatent](https://github.com/shuangchenfinance/greenpatent) was used as a cross-check of the IPC list (see `schemes.json`).

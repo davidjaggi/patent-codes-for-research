@@ -28,11 +28,19 @@ references:
     authors: [{family-names: Rozendaal, given-names: Rik}]
     year: 2024
     notes: "Table E1 reproduces the Jee & Srivastav code lists"
-  - type: software
-    title: "greenpatent: IPC codes of the WIPO IPC Green Inventory, expanded"
-    authors: [{family-names: Chen, given-names: Shuang}]
-    year: 2024
-    url: "https://github.com/shuangchenfinance/greenpatent"
+  - type: article
+    title: "Green patents and green codes: how different methodologies lead to different results"
+    authors:
+      - {family-names: Favot, given-names: Marinella}
+      - {family-names: Vesnic, given-names: Leyla}
+      - {family-names: Priore, given-names: Riccardo}
+      - {family-names: Bincoletto, given-names: Andrea}
+      - {family-names: Morea, given-names: Fabio}
+    year: 2023
+    journal: "Resources, Conservation & Recycling Advances"
+    volume: "200132"
+    doi: 10.1016/j.rcradv.2023.200132
+    notes: "IPC Green Inventory and expanded ENV-TECH lists (CC-BY-4.0): https://gitlab.com/area-science-park-sustainability/green-patents"
   - type: dataset
     title: "IPC Green Inventory"
     institution: {name: "World Intellectual Property Organization (WIPO)"}
