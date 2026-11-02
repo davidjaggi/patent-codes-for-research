@@ -26,7 +26,7 @@ def test_covers():
     assert not pc.covers("Y02T10/72", "Y02T10/7300", code_to="Y02T10/7291")
 
 
-@pytest.mark.parametrize("scheme", ["envtech", "jee_srivastav", "y02"])
+@pytest.mark.parametrize("scheme", ["envtech", "jee_srivastav", "y02", "ipc_gi"])
 def test_schemes_load_and_codes_valid(scheme):
     df = pc.load(scheme)
     assert len(df) > 0

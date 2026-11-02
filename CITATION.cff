@@ -28,3 +28,12 @@ references:
     authors: [{family-names: Rozendaal, given-names: Rik}]
     year: 2024
     notes: "Table E1 reproduces the Jee & Srivastav code lists"
+  - type: software
+    title: "greenpatent: IPC codes of the WIPO IPC Green Inventory, expanded"
+    authors: [{family-names: Chen, given-names: Shuang}]
+    year: 2024
+    url: "https://github.com/shuangchenfinance/greenpatent"
+  - type: dataset
+    title: "IPC Green Inventory"
+    institution: {name: "World Intellectual Property Organization (WIPO)"}
+    url: "https://www.wipo.int/classifications/ipc/green-inventory/home"
