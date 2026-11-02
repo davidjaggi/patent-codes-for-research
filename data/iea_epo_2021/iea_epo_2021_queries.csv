@@ -1,0 +1,14 @@
+label,language,query
+1,en,fossil OR (non w renewable) OR hydrocarbon? OR petrol+
+2,en,petroleum OR (crude w oil) OR oil
+3,en,coal OR mineral? OR coke OR peat OR BKB OR briquette OR asphaltite OR ortholignite OR metaanthracite OR lignite OR hardcoal OR browncoal OR (brown w coal) OR (oil 2w deposit) OR (oil w bear+) OR bitumen OR bituminous OR (tar w sand) OR (oil w sand)
+4,en,methane OR (natural w gas) OR hydrate? OR (petroleum w gas+) OR hydrogen OR (boil 2w gas+) OR BOG OR LNG OR LPG OR (liqui+ 2w (fuel? OR petroleum)) OR (liqui+ 2w gas+) OR (gaseous w fuel?)
+5,en,LNG OR LPG OR (liquid w fuel?) OR diesel OR gasoline OR (jet w fuel?) OR (fuel w oil) OR (bunker w fuel?) OR kerosene OR (oil w product?) OR octane OR cetane OR propane OR butane
+6,en,methane OR (natural w gas+) OR CNG OR LNG OR PLNG OR propane OR butane OR LPG OR Hydrate? OR (petroleum w gas+) OR hydrogen OR liquefied OR (compressed w gas+)
+7,en,"coal OR BKB OR briquette OR asphaltite, ortholignite OR metaanthracite OR lignite OR hardcoal OR browncoal"
+8,en,drilling OR offshore OR onshore OR oil OR hydrocarbon? OR gas+ OR subsea OR seabed OR reservoir OR petroleum OR methane OR formation OR riser? OR (well w head) OR bop OR (blowout w prevent+) OR fracturing OR frack+ OR ((bottom OR down) w hole)
+9,en,"(oil 3w (spill?, containment?)) OR hydrocarbon? OR petrol+ OR (crude w oil) OR (light w oil) OR (hazardous w material?) OR chemical? OR (raw w oil) OR tanker? OR (liquid w pollutant?) OR ((subsea OR underwater) w emission?)"
+10,en,biomass OR biofuel OR bioethanol OR biodiesel
+11,en,plastic OR (floating w debris) OR (floating w waste) OR leaves OR (solid w waste) OR (waste w matter) OR (floating w matter) OR pollutant?
+12,en,(wind w turbine) OR tower OR mast OR ((power OR electric) 3w generat+)
+13,en,(tar w sand?) OR (oil w sand?) OR (bituminous w sand?) OR frack+ OR (produced w water) OR drilling

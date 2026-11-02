@@ -1,0 +1,12 @@
+scheme,scheme_version,category,sector,code,code_to,code_system,description,source
+aghion_benabou_martin_roulet,NBER-2020,clean,auto,Y02T10/60,,CPC,Other road transportation technologies with climate change mitigation effect,"Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921, Appendix Table A1"
+aghion_benabou_martin_roulet,NBER-2020,clean,auto,Y02T10/70,,CPC,Energy storage for electromobility,"Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921, Appendix Table A1"
+aghion_benabou_martin_roulet,NBER-2020,clean,auto,Y02T90/10,,CPC,Technologies related to electric vehicle charging,"Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921, Appendix Table A1"
+aghion_benabou_martin_roulet,NBER-2020,clean,auto,Y02T90/34,,CPC,Fuel cell powered electric vehicles,"Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921, Appendix Table A1"
+aghion_benabou_martin_roulet,NBER-2020,clean,auto,Y02T90/42,,CPC,Hydrogen as fuel for road transportation,"Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921, Appendix Table A1"
+aghion_benabou_martin_roulet,NBER-2020,grey,auto,Y02T10/10,,CPC,Climate change mitigation technologies related to fuel injection,"Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921, Appendix Table A1"
+aghion_benabou_martin_roulet,NBER-2020,grey,auto,Y02T10/20,,CPC,Climate change mitigation technologies related to exhaust after treatment,"Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921, Appendix Table A1"
+aghion_benabou_martin_roulet,NBER-2020,grey,auto,Y02T10/40,,CPC,Climate change mitigation technologies related to engine management systems,"Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921, Appendix Table A1"
+aghion_benabou_martin_roulet,NBER-2020,grey,auto,Y02T10/50,,CPC,Climate change mitigation technologies related to intelligent control systems,"Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921, Appendix Table A1"
+aghion_benabou_martin_roulet,NBER-2020,dirty,auto,F02,,CPC,Combustion engines,"Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921, Appendix Table A1"
+aghion_benabou_martin_roulet,NBER-2020,other,auto,B60,,CPC,Vehicles in general (other automotive),"Aghion, Bénabou, Martin, Roulet (2020 NBER WP; AER: Insights 2023), NBER WP 26921, Appendix Table A1"

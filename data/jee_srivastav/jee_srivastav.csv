@@ -1,0 +1,192 @@
+scheme,scheme_version,category,sector,subsector,code,code_to,code_system,source
+jee_srivastav,2023,clean,Energy,"Efficient electrical power generation, transmission or distribution",Y02E40,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Energy,Enabling technologies,Y02E60,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Energy,Geothermal,Y02E10/10,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Energy,Hydro,Y02E10/20,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Energy,Nuclear,Y02E30,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Energy,Other energy conversion or management systems,Y02E70,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Energy,Photovoltaic,Y02E10/50,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Energy,Production of fuel of non-fossil origin,Y02E50,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Energy,Sea,Y02E10/30,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Energy,Solar thermal,Y02E10/40,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Energy,Thermal-PV hybrid,Y02E10/60,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Energy,Wind,Y02E10/70,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Manufacturing,Agriculture,Y02P60,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Manufacturing,Chemical,Y02P20,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Manufacturing,Chemical,Y02P30,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Manufacturing,Chemical,Y02P40,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Manufacturing,Consumer products,Y02P70,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Manufacturing,Consumer products,Y02P80,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Manufacturing,Enabling technologies,Y02P90,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Manufacturing,Metal,Y02P10,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Air,Y02T50,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Electric and hybrid vehicles,Y02T10,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Enabling technologies,Y02T90,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Maritime,Y02T70,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Railways,Y02T30,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Other,Building,Y02B,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Other,"Carbon capture, storage and sequestration",Y02C,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Other,ICT,Y02D,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Other,Smart grid,Y04S,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Other,Waste management,Y02W,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Electric,B60L11,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Electric,B60L50,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Electric,B60L53,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Electric,B60L55,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Electric,B60L58,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Electric,B60L3,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Electric,B60L15,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Electric,B60K1,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Electric,B60W10/08,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Electric,B60W10/24,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Electric,B60W10/26,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Hybrid,B60K6,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Hybrid,B60W20,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Hybrid,B60L7/1,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Hybrid,B60L7/20,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Hydrogen fuel cell,B60W10/28,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,clean,Transport,Hydrogen fuel cell,H01M8,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Energy,Combustion technologies with mitigation potential,Y02E20,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Metal processing,Y02P10/20,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Metal processing,Y02P10/25,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Chemical industry,Y02P20/129,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Chemical industry,Y02P20/143,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Chemical industry,Y02P20/15,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Chemical industry,Y02P20/20,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Chemical industry,Y02P20/30,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Chemical industry,Y02P20/40,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Chemical industry,Y02P20/50,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Oil refining and petrochemical industry,Y02P30/40,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Processing of minerals,Y02P40/121,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Processing of minerals,Y02P40/50,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Processing of minerals,Y02P40/57,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Processing of minerals,Y02P40/60,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Production process for final industrial or consumer products,Y02P70/50,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Production process for final industrial or consumer products,Y02P70/62,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Reducing waste and minimizing material use,Y02P80/30,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Manufacturing,Reducing waste and minimizing material use,Y02P80/40,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,Y02T10/10,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,Y02T10/12,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,Y02T10/30,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,Y02T10/40,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M39,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M41,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M43,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M45,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M47,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M49,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M51,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M53,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M55,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M57,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M59,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M61,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M63,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M65,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M67,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M69,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M71,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M3/02,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M3/04,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M3/05,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M23,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02M25,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02D41,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,grey,Transport,Fuel efficiency of internal combustion engine-based vehicles,F02B47/06,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,B03B9/02,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,B03D2203/006,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,B63B35/4413,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,B63B2035/442,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,B63B2035/448,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,B63B75/00,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,C09K8,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,C10L5/04,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,E02B17,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,E02B2017,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,E21B,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,B03B9/005,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,B03B1,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,B03D2203/08,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,B61D11,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Upstream,E21C,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10G,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10L1,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10K,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10L3/06,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10L3/08,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10L3/10,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,F25J3/0209,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,F25J3/0214,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,F25J3/061,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10F,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10L5/06,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10L5/08,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10L5/1,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10L5/2,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10L5/34,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10L5/36,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10L5/38,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10B,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10J1,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C10J3,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C01B3/2,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C01B3/30,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Processing and downstream,C01B3/32,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B63B27/34,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B63B27/24,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B63B27/25,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17D,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B63B25/08,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B63B2025/08,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B63B25/10,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B63B25/12,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B63B25/14,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B63B25/16,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B67D9,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F25J1/0022,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F25J1/0025,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B63B2025/087,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B63B25/04,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B60P3/22,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B60P3/24,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B61D5,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B61D3,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B61D15,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B61D49,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B61D7,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B61D9,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B65G5,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C2270/014,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C2270/015,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C2270/016,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C2270/0163,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,E02D27/38,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17B1/26,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C1,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C3,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C5,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C7,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C9,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C2221/032,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C2221/033,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C2221/035,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C2221/036,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,B65G3,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,G01M3/2892,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,G01M3/32,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,G01M3/34,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Energy,Transmission and distribution,F17C2265/06,,CPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Manufacturing,Production of producer gas,C10J,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Manufacturing,Steam engine plants,F01K,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Manufacturing,Gas turbine plants,F02C,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Manufacturing,Hot gas plants,F02G,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Manufacturing,Steam generation,F22,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Manufacturing,Combustion apparatus,F23,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Manufacturing,"Furnaces, kilns, ovens",F27,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Manufacturing,Internal combustion engine,F02B,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Transport,Internal combustion engine,F02B,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Transport,Internal combustion engine,F02D,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Transport,Internal combustion engine,F02F,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Transport,Internal combustion engine,F02M,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Transport,Internal combustion engine,F02N,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1
+jee_srivastav,2023,dirty,Transport,Internal combustion engine,F02P,,IPC,Jee & Srivastav (2023) Suppl. Table 1; lists as in Rozendaal (2024) Table E1

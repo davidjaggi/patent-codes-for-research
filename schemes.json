@@ -1,0 +1,130 @@
+{
+  "envtech": {
+    "name": "OECD ENV-TECH",
+    "file": "data/envtech/envtech.csv",
+    "status": "complete",
+    "source": "Haščič, I. & Migotto, M. (2015). Measuring environmental innovation using patent data. OECD Environment Working Papers 89. https://doi.org/10.1787/5js009kf48xw-en",
+    "systems": [
+      "IPC",
+      "CPC"
+    ],
+    "build": "scripts/build_envtech.py (raw/env_tech.xlsx, transcribed from the paper's annex)",
+    "notes": "Codes like Y02T10/72-7291 are CPC subgroup ranges kept as code/code_to; 3 rows are conditional combinations (code_type=complex). Verified against the original annex (Haščič & Migotto 2015, ENV/EPOC/WPEI(2014)6/FINAL): every code token matches except two entries missing from the spreadsheet (Y02E60/70-7892, Y02T10/10), now added by build_envtech.py. Topic assignment of each code was not re-verified."
+  },
+  "jee_srivastav": {
+    "name": "Jee & Srivastav clean/grey/dirty",
+    "file": "data/jee_srivastav/jee_srivastav.csv",
+    "status": "complete",
+    "source": "Jee, S. J. & Srivastav, S. (2023/24). Pivoting from Dirty to Clean: The Intellectual Distance between Clean and Dirty Technologies, Supplementary Table 1. Lists transcribed from Rozendaal (2024), Table E1.",
+    "systems": [
+      "IPC",
+      "CPC"
+    ],
+    "build": "scripts/build_jee_srivastav.py",
+    "notes": "Grey is removed from clean; patents both clean and dirty are excluded in the original analysis. Journal reference/DOI still to be added. Transport lists checked against the original Aghion et al. (2016) Table 1 (see aghion_2016): dirty and grey identical; clean differs only by the IPC-2019 B60L11 split. Clean-energy lists consistent with Popp et al. (see popp_2019). Dirty energy lists are a coarsened version of iea_epo_2021 (keyword filters and /LOW markers dropped, /LOW ranges expanded by hand); the annex defines '/LOW' as 'the class and all its sub-levels', which is presumably also the meaning in Jee & Srivastav's grey Y02P rows (issue #1) - not confirmed."
+  },
+  "y02": {
+    "name": "CPC Y02/Y04S tagging scheme",
+    "file": "data/y02/y02_y04s.csv",
+    "status": "complete (top-level subclasses)",
+    "source": "EPO/CPC Y02 and Y04S tagging scheme.",
+    "systems": [
+      "CPC"
+    ],
+    "build": "scripts/build_y02.py",
+    "notes": "Nine subclass codes (Y02A-Y02W, Y04S); each covers all groups and subgroups below it, so no deeper tree is needed to flag Y02/Y04S patents. EPO status of all sections: December 2021 (https://www.epo.org/en/news-events/in-focus/classification/classification/updatesYO2andY04S, page text supplied by the user). Use codes like Y02E10/70 only via the Jee & Srivastav sector breakdown.",
+    "epo_status": "December 2021"
+  },
+  "ipc_gi": {
+    "name": "WIPO IPC Green Inventory",
+    "file": "data/ipc_green_inventory/ipc_gi.csv",
+    "status": "complete",
+    "source": "WIPO IPC Green Inventory (2022 list), expanded and checked against PATSTAT by Favot, M., Vesnic, L., Priore, R., Bincoletto, A., Morea, F. (2023). Green patents and green codes: how different methodologies lead to different results. Resources, Conservation & Recycling Advances 200132. https://doi.org/10.1016/j.rcradv.2023.200132 ; data/code https://gitlab.com/area-science-park-sustainability/green-patents (CC-BY-4.0)",
+    "systems": [
+      "IPC"
+    ],
+    "notes": "1,214 codes, 170 leaf topics with topic_1/topic_2 hierarchy. Cross-check: S. Chen's list (github.com/shuangchenfinance/greenpatent) expands ranges numerically and differs substantially (553 codes in common, 661 only Favot, 405 only Chen); Favot is used because it is validated against real IPC symbols.",
+    "build": "scripts/build_ipc_gi.py (raw/favot2023)"
+  },
+  "envtech_expanded": {
+    "name": "OECD ENV-TECH, ranges expanded",
+    "file": "data/envtech/envtech_expanded.csv",
+    "status": "complete",
+    "source": "Haščič & Migotto (2015), expanded per topic by Favot, M., Vesnic, L., Priore, R., Bincoletto, A., Morea, F. (2023). Green patents and green codes: how different methodologies lead to different results. Resources, Conservation & Recycling Advances 200132. https://doi.org/10.1016/j.rcradv.2023.200132 ; data/code https://gitlab.com/area-science-park-sustainability/green-patents (CC-BY-4.0)",
+    "systems": [
+      "IPC",
+      "CPC"
+    ],
+    "build": "scripts/build_envtech_expanded.py (raw/favot2023/ENVTECH)",
+    "notes": "3,150 unique codes in 4,525 topic-code rows; one code can belong to several topics. Use envtech.csv for the original range notation."
+  },
+  "dechezlepretre_martin_mohnen": {
+    "name": "Dechezleprêtre, Martin & Mohnen (2013) clean / less-dirty / dirty",
+    "file": "data/dechezlepretre_martin_mohnen/dmm2013.csv",
+    "status": "complete (hand-transcribed)",
+    "source": "Dechezleprêtre, A., Martin, R., Mohnen, M. (2013). Knowledge spillovers from clean and dirty technologies: a patent citation analysis. CCCEP WP 151 / Grantham Research Institute WP 135.",
+    "systems": [
+      "IPC",
+      "CPC"
+    ],
+    "build": "scripts/build_dmm2013.py",
+    "notes": "Four sectors: car, fuel, energy, lighting; 'less dirty' = grey. Transcribed from the three-column Figure 2; printed typo B06K6 corrected to B60K6; E02B in the energy-dirty column kept as printed. This is a different paper from the 'Dechezleprêtre et al. (2021)' cited by Jee & Srivastav (see dechezlepretre_muckley_neelakantan)."
+  },
+  "aghion_benabou_martin_roulet": {
+    "name": "Aghion, Bénabou, Martin & Roulet (2020/2023) auto sector",
+    "file": "data/aghion_benabou_martin_roulet/abmr2021.csv",
+    "status": "complete",
+    "source": "Aghion, P., Bénabou, R., Martin, R., Roulet, A. (2020). Environmental preferences and technological choices: Is market competition clean or dirty? NBER WP 26921; AER: Insights 5(1), 2023. Appendix Table A1.",
+    "systems": [
+      "CPC"
+    ],
+    "build": "scripts/build_aghion2021.py",
+    "notes": "Auto sector only (Y02T, F02, B60). NOT the Aghion et al. (2016, JPE) paper; its grey Y02T10 codes differ from the Jee & Srivastav grey list."
+  },
+  "dechezlepretre_muckley_neelakantan": {
+    "name": "Dechezleprêtre, Muckley & Neelakantan (2021) clean / dirty",
+    "file": "data/dechezlepretre_muckley_neelakantan/dmn2021.csv",
+    "status": "complete",
+    "source": "Dechezleprêtre, A., Muckley, C. B., Neelakantan, P. (2021). Does the Market Value Clean Innovation? Evidence from US Listed Firms. In Applied Operations Research and Financial Modelling in Energy, Springer. https://doi.org/10.1007/978-3-030-84981-8_11 (Internet Appendix 1, Tables 8-9)",
+    "systems": [
+      "IPC",
+      "CPC"
+    ],
+    "build": "scripts/build_dmn2021.py",
+    "notes": "This is the 'Dechezleprêtre et al. (2021)' that Jee & Srivastav cite for the dirty manufacturing list; the eight dirty codes are identical to the Jee & Srivastav manufacturing list. Clean = Y02E (incl. Y02E20), Y02C, Y02T, Y02B groups. Counts Y02E20 as clean, whereas Jee & Srivastav treat it as grey. The authors' related 2020 paper (European Journal of Finance 27(1-2), 31-61) may use the same codes but was not checked."
+  },
+  "aghion_2016": {
+    "name": "Aghion et al. (2016) auto-industry clean / dirty / grey",
+    "file": "data/aghion_2016/aghion2016.csv",
+    "status": "complete",
+    "source": "Aghion, P., Dechezleprêtre, A., Hémous, D., Martin, R., Van Reenen, J. (2016). Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry. Journal of Political Economy 124(1): 1-51, Table 1",
+    "systems": [
+      "IPC"
+    ],
+    "build": "scripts/build_aghion2016.py",
+    "notes": "Original source of the Jee & Srivastav transport lists. Dirty and grey codes are identical to Jee & Srivastav; clean codes differ only because IPC 2019 moved B60L11 to B60L50-B60L58 (Jee & Srivastav note 4). Not to be confused with aghion_benabou_martin_roulet (2020/2023)."
+  },
+  "popp_2019": {
+    "name": "Popp, Pless, Haščič & Johnstone: clean energy and hydrofracturing codes",
+    "file": "data/popp_2019/popp2019.csv",
+    "status": "complete (Appendix Table A)",
+    "source": "Popp, D., Pless, J., Haščič, I., Johnstone, N. Innovation and Entrepreneurship in the Energy Sector. NBER chapter draft, 6 Dec 2019 (https://www.nber.org/system/files/chapters/c14375/revisions/c14375.rev0.pdf); published 2022 in The Role of Innovation and Entrepreneurship in Economic Growth, University of Chicago Press, pp. 175-248",
+    "systems": [
+      "CPC"
+    ],
+    "build": "scripts/build_popp2019.py",
+    "notes": "Clean energy and enabling technologies (Y02/Y04S groups) plus hydrofracturing CPC codes (category 'fossil'; some only valid together with a keyword search, see requires_keywords). Does not contain a general dirty-energy list; Jee & Srivastav take that from IEA (2021). Y02E60/70-7892 here also confirms the entry added to envtech."
+  },
+  "iea_epo_2021": {
+    "name": "EPO & IEA fossil fuel supply technologies",
+    "file": "data/iea_epo_2021/iea_epo_2021.csv",
+    "queries": "data/iea_epo_2021/iea_epo_2021_queries.csv",
+    "status": "complete (CPC concordance + English queries)",
+    "source": "EPO & IEA/OECD (April 2021). Methodology for identifying fossil fuel supply related technologies in patent data. Annex to the report 'Patents and the energy transition' (epo.org/trends-energy)",
+    "systems": [
+      "CPC"
+    ],
+    "build": "scripts/build_iea2021.py",
+    "notes": "Source of the dirty energy lists (upstream, processing/downstream, transmission/distribution) used by Jee & Srivastav. 93 code/range rows. '/LOW' = the class and all its sub-levels; codes without it are the class only (use is_in_scheme(..., strict_low=True)). Many rows only count together with full-text queries [1]-[13] (filter_including) or minus exclusions (filter_excluding), so a pure code match over-includes; Jee & Srivastav's list drops these filters. The two road-tanker rows carry a '(+tank+ OR reservoir OR citerne) s [5]/[6]' filter whose including/excluding role is ambiguous in the PDF layout (kept verbatim in filter_note). French and German queries are not transcribed (see the PDF in raw/iea_epo_2021). Excludes technologies that only improve combustion/end use (e.g. engines)."
+  }
+}

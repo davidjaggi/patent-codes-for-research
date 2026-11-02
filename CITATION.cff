@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this repository in your research, please cite it as below. Please also cite the original source papers of the code lists you use (see README.md and schemes.json)."
+title: "patent-codes-for-research: machine-readable green patent classification codes"
+type: dataset
+version: 0.1.0
+date-released: 2026-11-02
+license: MIT
+repository-code: "https://github.com/davidjaggi/patent-codes-for-research"
+authors:
+  - family-names: Jaggi
+    given-names: David
+    affiliation: "ZHAW"
+keywords: [patents, CPC, IPC, Y02, green innovation, sustainable finance]
