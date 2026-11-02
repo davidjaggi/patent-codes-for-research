@@ -15,7 +15,7 @@ root = Path(__file__).resolve().parents[1]
 df = pd.read_excel(root / "raw" / "ipc_green_inventory_chen.xlsx")
 codes = [re.sub(r"\s+", "", str(c)).upper() for c in df["IPC_Codes"].dropna()]
 codes = list(dict.fromkeys(codes))
-bad = [c for c in codes if not re.match(r"^[A-H]\d{2}[A-Z]\d*(/\d+)?$", c)]
+bad = [c for c in codes if not re.match(r"^[A-H]\d{2}[A-Z]?\d*(/\d+)?$", c)]
 assert not bad, bad
 out = pd.DataFrame({
     "scheme": "ipc_gi", "scheme_version": "WIPO-via-Chen-2024", "topic_1": "", "topic_2": "",

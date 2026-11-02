@@ -7,7 +7,7 @@ Patent classification code lists for "green"/"clean" technologies from the resea
 | OECD ENV-TECH | `data/envtech/envtech.csv` | complete (1,244 rows) | Haščič & Migotto (2015) |
 | Jee & Srivastav clean / grey / dirty | `data/jee_srivastav/jee_srivastav.csv` | complete (191 rows) | Jee & Srivastav (2023), lists as in Rozendaal (2024) Table E1 |
 | CPC Y02 / Y04S | `data/y02/y02_y04s.csv` | **partial**: subclasses + groups named in the papers | EPO CPC scheme |
-| WIPO IPC Green Inventory | `data/ipc_green_inventory/ipc_gi.csv` | complete code list (1,095 codes), **no topic hierarchy** | WIPO, expanded by [S. Chen](https://github.com/shuangchenfinance/greenpatent) |
+| WIPO IPC Green Inventory | `data/ipc_green_inventory/ipc_gi.csv` | complete code list (958 unique codes), **no topic hierarchy** | WIPO, expanded by [S. Chen](https://github.com/shuangchenfinance/greenpatent) |
 
 The full Y02/Y04S tree still needs to be generated from the official EPO/CPC release, and the IPC Green Inventory should be cross-checked against WIPO and enriched with its topic hierarchy (those hosts were not reachable when this repo was created). Per-scheme details are in `schemes.json`.
 
