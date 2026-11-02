@@ -21,7 +21,7 @@
       "CPC"
     ],
     "build": "scripts/build_jee_srivastav.py",
-    "notes": "Grey is removed from clean; patents both clean and dirty are excluded in the original analysis. Journal reference/DOI still to be added. Transport lists checked against the original Aghion et al. (2016) Table 1 (see aghion_2016): dirty and grey identical; clean differs only by the IPC-2019 B60L11 split. Clean-energy lists consistent with Popp et al. (see popp_2019)."
+    "notes": "Grey is removed from clean; patents both clean and dirty are excluded in the original analysis. Journal reference/DOI still to be added. Transport lists checked against the original Aghion et al. (2016) Table 1 (see aghion_2016): dirty and grey identical; clean differs only by the IPC-2019 B60L11 split. Clean-energy lists consistent with Popp et al. (see popp_2019). Dirty energy lists are a coarsened version of iea_epo_2021 (keyword filters and /LOW markers dropped, /LOW ranges expanded by hand); the annex defines '/LOW' as 'the class and all its sub-levels', which is presumably also the meaning in Jee & Srivastav's grey Y02P rows (issue #1) - not confirmed."
   },
   "y02": {
     "name": "CPC Y02/Y04S tagging scheme",
@@ -114,5 +114,17 @@
     ],
     "build": "scripts/build_popp2019.py",
     "notes": "Clean energy and enabling technologies (Y02/Y04S groups) plus hydrofracturing CPC codes (category 'fossil'; some only valid together with a keyword search, see requires_keywords). Does not contain a general dirty-energy list; Jee & Srivastav take that from IEA (2021). Y02E60/70-7892 here also confirms the entry added to envtech."
+  },
+  "iea_epo_2021": {
+    "name": "EPO & IEA fossil fuel supply technologies",
+    "file": "data/iea_epo_2021/iea_epo_2021.csv",
+    "queries": "data/iea_epo_2021/iea_epo_2021_queries.csv",
+    "status": "complete (CPC concordance + English queries)",
+    "source": "EPO & IEA/OECD (April 2021). Methodology for identifying fossil fuel supply related technologies in patent data. Annex to the report 'Patents and the energy transition' (epo.org/trends-energy)",
+    "systems": [
+      "CPC"
+    ],
+    "build": "scripts/build_iea2021.py",
+    "notes": "Source of the dirty energy lists (upstream, processing/downstream, transmission/distribution) used by Jee & Srivastav. 93 code/range rows. '/LOW' = the class and all its sub-levels; codes without it are the class only (use is_in_scheme(..., strict_low=True)). Many rows only count together with full-text queries [1]-[13] (filter_including) or minus exclusions (filter_excluding), so a pure code match over-includes; Jee & Srivastav's list drops these filters. The two road-tanker rows carry a '(+tank+ OR reservoir OR citerne) s [5]/[6]' filter whose including/excluding role is ambiguous in the PDF layout (kept verbatim in filter_note). French and German queries are not transcribed (see the PDF in raw/iea_epo_2021). Excludes technologies that only improve combustion/end use (e.g. engines)."
   }
 }

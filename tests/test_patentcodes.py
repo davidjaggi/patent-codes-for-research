@@ -26,7 +26,7 @@ def test_covers():
     assert not pc.covers("Y02T10/72", "Y02T10/7300", code_to="Y02T10/7291")
 
 
-@pytest.mark.parametrize("scheme", ["envtech", "jee_srivastav", "y02", "ipc_gi", "envtech_expanded", "dechezlepretre_martin_mohnen", "aghion_benabou_martin_roulet", "dechezlepretre_muckley_neelakantan", "aghion_2016", "popp_2019"])
+@pytest.mark.parametrize("scheme", ["envtech", "jee_srivastav", "y02", "ipc_gi", "envtech_expanded", "dechezlepretre_martin_mohnen", "aghion_benabou_martin_roulet", "dechezlepretre_muckley_neelakantan", "aghion_2016", "popp_2019", "iea_epo_2021"])
 def test_schemes_load_and_codes_valid(scheme):
     df = pc.load(scheme)
     assert len(df) > 0
@@ -108,3 +108,20 @@ def test_popp_consistent_with_jee_srivastav():
         assert pc.is_in_scheme(code, js, "dirty"), code
     assert pc.is_in_scheme("Y02B40/00", popp, "clean")   # Y02B20-Y02B70 group range
     assert not pc.is_in_scheme("Y02B10/10", popp, "clean")
+
+
+def test_iea_codes_covered_by_jee_srivastav_dirty_list():
+    iea, js = pc.load("iea_epo_2021"), pc.load("jee_srivastav")
+    dirty = js[js["category"] == "dirty"]
+    for code in iea["code"]:
+        assert pc.is_in_scheme(code, dirty), code
+
+
+def test_low_marker_semantics_and_truncated_codes():
+    iea = pc.load("iea_epo_2021")
+    assert pc.is_in_scheme("C09K8/58", iea, strict_low=True)        # C09K8/low includes sub-levels
+    assert pc.is_in_scheme("E21B43/003", iea, strict_low=True)      # exact, no /low
+    assert not pc.is_in_scheme("E21B43/0035", iea, strict_low=True) # E21B43/003 has no /low marker
+    assert pc.is_in_scheme("E21B43/0035", iea)                      # lenient default
+    assert pc.covers("B60L7/1", "B60L7/12")                         # truncated code = digit prefix
+    assert len(pc.load_iea_queries()) == 13

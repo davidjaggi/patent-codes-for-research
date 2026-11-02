@@ -1,7 +1,7 @@
 """Match patent classification codes against a scheme."""
 from __future__ import annotations
 
-from .expand import parse_code
+from .expand import normalise, parse_code
 
 
 def _sg(x: str | None) -> int:
@@ -15,7 +15,8 @@ def covers(scheme_code: str, patent_code: str, code_to: str | None = None) -> bo
     Structural matching: subclass-level (``Y02B``) covers the whole subclass;
     main-group level (``Y02E30``) covers all its subgroups; a subgroup code
     (``Y02E10/70``) covers that subgroup and its sub-subgroups, which extend its
-    digits (``Y02E10/7005``) - a heuristic, since the full CPC tree is not shipped. Ranges
+    digits (``Y02E10/7005``); a truncated code (``B60L7/1``) is a digit prefix - a heuristic, since
+    the full CPC tree is not shipped. Ranges
     (``code_to``) compare subgroup numbers right-padded.
     """
     s, p = parse_code(scheme_code), parse_code(patent_code)
@@ -39,19 +40,28 @@ def covers(scheme_code: str, patent_code: str, code_to: str | None = None) -> bo
     ss, ps = s["subgroup"], p["subgroup"] or ""
     # CPC sub-subgroups extend their parent's digits (/70 -> /7005, /7094; /15 -> /151), so a
     # subgroup code covers patent subgroups that start with it. Siblings (/72 vs /70) do not match.
-    return ps.startswith(ss) if len(ss) >= 2 else ps == ss
+    return ps.startswith(ss)   # also covers truncated codes such as B60L7/1 (= B60L7/10-18) or C10L5/2
 
 
-def is_in_scheme(patent_code: str, scheme_df, category: str | None = None) -> bool:
+def is_in_scheme(patent_code: str, scheme_df, category: str | None = None, strict_low: bool = False) -> bool:
     """Check a code against a loaded scheme DataFrame (optionally one category).
 
     Rows that are not plain codes/ranges (ENV-TECH ``code_type == 'complex'``, i.e. conditional
     combinations such as '[F17D5/02 and E03]') cannot be evaluated from one code and are skipped.
+
+    ``strict_low=True`` applies the EPO/IEA '/LOW' convention to schemes that have a ``low`` column
+    (``iea_epo_2021``): a single code without the marker matches only itself, not its subgroups.
+    Default is the lenient rule (every code covers its sub-levels). Ranges are always inclusive.
     """
     df = scheme_df if category is None else scheme_df[scheme_df["category"] == category]
     tos = df["code_to"] if "code_to" in df else [""] * len(df)
-    for c, t in zip(df["code"], tos):
+    lows = df["low"] if "low" in df else ["true"] * len(df)
+    for c, t, low in zip(df["code"], tos, lows):
         try:
+            if strict_low and low != "true" and not t:
+                if normalise(c) == normalise(patent_code):
+                    return True
+                continue
             if covers(c, patent_code, (t or None)):
                 return True
         except ValueError:
